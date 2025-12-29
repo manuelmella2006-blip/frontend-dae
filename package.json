@@ -1,0 +1,34 @@
+{
+  "name": "dae-frontend",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.13.2",
+    "chart.js": "^4.5.1",
+    "exceljs": "^4.4.0",
+    "jsqr": "^1.4.0",
+    "pinia": "^3.0.4",
+    "qr-scanner": "^1.4.2",
+    "qrcode": "^1.5.4",
+    "vue": "^3.5.25",
+    "vue-router": "^4.6.4",
+    "vue3-toastify": "^0.2.8"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.2",
+    "autoprefixer": "^10.4.23",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.19",
+    "vite": "^7.2.4",
+    "vite-plugin-vue-devtools": "^8.0.5"
+  }
+}
