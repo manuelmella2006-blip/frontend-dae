@@ -36,4 +36,5 @@ coverage
 __screenshots__/
 node_modules
 .env
+.env.production
 dist
